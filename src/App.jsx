@@ -1,8 +1,7 @@
+import AppRoutes from "./routes/appRoutes";
 
- function App() {
-  return (
-    <h1>BarberFlow 💈</h1>
-  )
+function App() {
+  return <AppRoutes />;
 }
 
-export default App
+export default App;
