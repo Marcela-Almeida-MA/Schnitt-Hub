@@ -1,16 +1,77 @@
-# React + Vite
+# Schnitt Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **O hub inteligente para barbearias modernas.**
 
-Currently, two official plugins are available:
+O **Schnitt Hub** é uma aplicação web moderna desenvolvida para simplificar a gestão de barbearias. Construído com **React** e **Vite**, o projeto tem como foco desempenho, escalabilidade, organização do código e uma experiência de usuário intuitiva.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Este projeto faz parte do meu portfólio de **Engenharia de Software** e **Análise e Desenvolvimento de Sistemas**, aplicando conceitos de desenvolvimento Front-end, arquitetura baseada em componentes e boas práticas de programação.
 
-## React Compiler
+## Tecnologias
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Git e GitHub
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Implementadas
+
+* Interface moderna e responsiva
+* Estrutura baseada em componentes
+* Layout adaptável para diferentes dispositivos
+
+### Em desenvolvimento
+
+* Agendamento de horários
+* Cadastro e gerenciamento de clientes
+* Cadastro de serviços
+* Dashboard com indicadores
+* Sistema de autenticação
+* Gestão financeira
+* Histórico de atendimentos
+* Perfil dos profissionais
+* Configurações da barbearia
+
+## Estrutura do Projeto
+
+```text
+src/
+├── assets/
+├── components/
+├── pages/
+├── styles/
+└── App.jsx
+```
+
+##  Objetivo
+
+Desenvolver uma plataforma moderna de gerenciamento para barbearias, priorizando uma interface intuitiva, organização do código, escalabilidade e boas práticas de desenvolvimento com React.
+
+## Objetivos de Aprendizado
+
+Durante o desenvolvimento deste projeto, estou colocando em prática conhecimentos como:
+
+* Componentização com React
+* Organização de projetos Front-end
+* HTML semântico
+* CSS moderno e responsivo
+* Gerenciamento de estado
+* Versionamento com Git e GitHub
+* Boas práticas de Engenharia de Software
+
+## Próximas Implementações
+
+* Integração com API
+* Banco de dados
+* Login e autenticação
+* Agendamento online
+* Painel administrativo
+* Relatórios gerenciais
+* Gestão financeira
+* Tema claro e escuro
+* Testes automatizados
+
+**Schnitt Hub** — O hub inteligente para barbearias modernas.
