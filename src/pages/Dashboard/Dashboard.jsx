@@ -1,9 +1,12 @@
+import MainLayout from "../../components/Layout/MainLayout";
+
 function Dashboard() {
     return (
-        <div> 
-            <h1> Dashboard </h1>
-        </div>
-    )
+        <MainLayout>
+          <h1>Dashboard</h1>
+           <p>Bem-vinda ao Schnitt Hub!</p>
+        </MainLayout>
+    );
 }
 
 export default Dashboard;
