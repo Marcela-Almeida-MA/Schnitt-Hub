@@ -48,9 +48,6 @@ src/
 
 <<<<<<< HEAD
 ##  Objetivo
-=======
-## Objetivo
->>>>>>> f13678d (feat: criar layout principal reutilizável com cabeçalho)
 
 Desenvolver uma plataforma moderna de gerenciamento para barbearias, priorizando uma interface intuitiva, organização do código, escalabilidade e boas práticas de desenvolvimento com React.
 
