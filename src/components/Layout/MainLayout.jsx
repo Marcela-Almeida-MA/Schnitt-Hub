@@ -1,18 +1,20 @@
 import Header from "../Header";
+import Sidebar from "../Sidebar/Sidebar";
 import styles from "./MainLayout.module.css";
 
 function MainLayout({ children }) {
     return (
         <div className={styles.container}>
-            {/* Sidebar */}
+            <Sidebar />
 
-         <div className={styles.content}  >
-            <Header />
+            <div className={styles.content}>
+                <Header />
 
-        <main className={styles.main}>
-            {children }
-        </main>
-         </div>
+                <main className={styles.main}>
+                    {children}
+                </main>
+            </div>
+
         </div>
     );
 
