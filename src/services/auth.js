@@ -10,5 +10,5 @@ export const Login = async (email, password) => {
 };
   }
     
-throw new Error("Email ou passaporte invalidos");
+throw new Error("E-mail ou senha inválidos");
   };
