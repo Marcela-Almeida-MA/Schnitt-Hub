@@ -1,19 +1,19 @@
-import { createContext, useState } from "react";
+import { useState } from "react";
+import { AuthContext } from "./auth-context.js";
 import * as auth from "../services/auth";
 
-export const AuthContext = createContext();
-
 export function AuthProvider({ children }) {
-    const [user, setUser] = useState(null);
+  const [user, setUser] = useState(null);
 
-    const signIn = async (email, password) => {
-        const response = await auth.Login(email, password);
-        setUser(response.user);
-    };
+  // Autentica o usuário e armazena os dados retornados pela API.
+  const signIn = async (email, password) => {
+    const response = await auth.Login(email, password);
+    setUser(response.user);
+  };
 
-    return (
-        <AuthContext.Provider value={{ user, signIn }}>
-            {children}
-        </AuthContext.Provider>
-    );
+  return (
+    <AuthContext.Provider value={{ user, signIn }}>
+      {children}
+    </AuthContext.Provider>
+  );
 }
